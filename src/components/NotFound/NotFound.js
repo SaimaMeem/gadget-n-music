@@ -10,7 +10,7 @@ const NotFound = () => {
             <Image className='w-auto not-found-image' src={image} fluid></Image>
             <div className='text-center'>
             <h5>Sorry! The page you are looking for is nowhere to find. </h5>
-            <Button className='go-home-btn'><Link to="/home">Go to Home</Link></Button>
+            <Button className='go-home-btn'><Link to="/">Go to Home</Link></Button>
             </div>
             </div>
         </Container>
