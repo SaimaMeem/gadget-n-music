@@ -2,8 +2,8 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div>
-            
+        <div className='text-center  my-5'>
+            <h2 className='fw-bold'>Under Construction</h2>
         </div>
     );
 };

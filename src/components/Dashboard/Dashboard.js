@@ -39,61 +39,9 @@ const data = [
         "revenue": 61000
     }
 ]
-const data01 = [
-    {
-        "month": "Mar",
-        "investment": 30000
-    },
-    {
-        "month": "Apr",
-        "investment": 20000
-    },
-    {
-        "month": "May",
-        "investment": 100000
-    },
-    {
-        "month": "Jun",
-        "investment": 90000
-    },
-    {
-        "month": "Jul",
-        "investment": 60000
-    },
-    {
-        "month": "Aug",
-        "investment": 80000
-    }
-]
-const data02 = [
-    {
-        "month": "Mar",
-        "sell": 241
-    },
-    {
-        "month": "Apr",
-        "sell": 423
-    },
-    {
-        "month": "May",
-        "sell": 726
-    },
-    {
-        "month": "Jun",
-        "sell": 529
-    },
-    {
-        "month": "Jul",
-        "sell": 601
-    },
-    {
-        "month": "Aug",
-        "sell": 670
-    }
-]
 const Dashboard = () => {
     return (
-        <Container className='my-3'>
+        <Container className='my-5'>
             <Row>
                 <Col className='area-chart my-3'>
                     <AreaChart width={500} height={250} data={data}
