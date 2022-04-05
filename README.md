@@ -1,6 +1,6 @@
 ## Gadget N Music
 
-[Gadget N Music](https://github.com/facebook/create-react-app).
+[Gadget N Music](https://gadget-n-music-050422.netlify.app/)
 
 ## Description
 * This is a Headphone Review Website developed using React.
