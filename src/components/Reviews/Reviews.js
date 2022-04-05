@@ -13,7 +13,7 @@ const Reviews = () => {
             <Row xs={1} md={2} lg={3} className="g-4">
                 {reviews.map((review) => (
                     <Col key={review.id}>
-                        <Card className='card h-100'>
+                        <Card className='card h-100 shadow'>
                         <Card.Body className='d-flex justify-content-around align-items-center'>
                             <Card.Img  variant="top" src={review.profile_picture} />
                             <Card.Body className='p-0 text-center'>
