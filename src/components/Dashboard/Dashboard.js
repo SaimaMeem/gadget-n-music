@@ -42,7 +42,7 @@ const data = [
 const Dashboard = () => {
     return (
         <Container className='my-5'>
-            <Row>
+            <Row xs={1} md={2}>
                 <Col className='area-chart my-3'>
                     <AreaChart width={500} height={250} data={data}
                         margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
@@ -60,7 +60,7 @@ const Dashboard = () => {
                         <YAxis />
                         <CartesianGrid strokeDasharray="3 3" />
                         <Tooltip />
-                        <Legend/>
+                        <Legend />
                         <Area type="monotone" dataKey="investment" stroke="#82ca9d" fillOpacity={1} fill="url(#colorInvestment)" />
                         <Area type="monotone" dataKey="revenue" stroke="#82ca9d" fillOpacity={1} fill="url(#colorRevenue)" />
                     </AreaChart>
@@ -77,7 +77,7 @@ const Dashboard = () => {
                     </BarChart>
                 </Col>
             </Row>
-            <Row>
+            <Row xs={1} md={2}>
                 <Col className='line-chart my-3'>
                     <LineChart width={500} height={250} data={data}
                         margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
@@ -94,7 +94,7 @@ const Dashboard = () => {
                     <PieChart width={500} height={250}>
                         <Pie data={data} dataKey="investment" nameKey="month" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
                         <Pie data={data} dataKey="revenue" nameKey="month" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
-                        <Tooltip/>
+                        <Tooltip />
                     </PieChart>
                 </Col>
             </Row>
