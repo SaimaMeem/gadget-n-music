@@ -19,12 +19,15 @@
     height: 3px;
     bottom: -3px;
     left: 0;
-    background-color: #188CA5;
+    background-color: #1d8096;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
   a.links:hover{
-      color: #188CA5 !important;
+      color: #1d8096 !important;
+  }
+  a.links:focus{
+      color: #18B7BD !important;
   }
   .links:hover:after {
     transform: scaleX(1);

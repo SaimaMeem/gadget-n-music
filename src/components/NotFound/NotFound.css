@@ -1,31 +1,29 @@
-.banner-heading {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 4em;
-    color: #0A1754;
-    text-align: start;
+.not-found-image{
+    overflow:hidden;
 }
 
-.highlighted {
-    font-family: 'Bebas Neue', cursive;
-    color: #18B7BD;
-}
-
-.banner-text {
-    text-align: justify;
-}
-.live-demo-btn{
+.go-home-btn{
     background-color: #FAF7F0 !important;
-    color: #072A40 !important ;
+    color: #072A40 !important;
     font-weight: 600 !important;
     border: 2px solid #072A40 !important;
     transition: all 0.4s ease-in-out;
     padding: 0.5em 1.4em !important;
+    text-decoration: none !important;
 }
-.live-demo-btn:hover{
+.go-home-btn:hover{
     background-color: #072A40 !important;
     color: #FAF7F0 !important;
     border: 2px solid #FAF7F0 !important;
     border-radius: 5px;
     /* transform: scale(0.9); */
+    transition: all 0.4s ease-in-out;
+}
+a{
+    text-decoration: none !important;
+    color: #072A40 !important;
+}
+.go-home-btn:hover a{
+    color: white !important;
     transition: all 0.4s ease-in-out;
 }
